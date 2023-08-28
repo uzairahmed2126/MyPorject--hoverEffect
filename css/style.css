@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #3333;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 19vh 19vh ;
+    text-align: center;
+    align-content: center;
+    padding: 30px; 
+    box-shadow: rgba(0,0,0.9) 0.1px 8px 18px 0.2px;
+    /* height: 52vh; */
+    background: #4444;
+}
+
+button{
+    padding: 15px 30px;
+    background-color: darkslategray;
+    color: #fffee5;
+    text-shadow: 0.3px 1px 1px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+iframe {
+    border-radius: 30px;
+    margin-top: 20px;
+    /* transition: 0.9s all ease-in-out; */
+}
+
+div{
+    cursor: pointer;
+    height: 50vh;
+}
