@@ -28,7 +28,7 @@ Idbtn.addEventListener('mouseenter', () => {
     div.style.borderRadius = '30px'
     div.style.visibility = 'visible'
     div.style.transition = '1s ease-in-out'
-    div.innerHTML = '<iframe id="frame" width="560" height="315" src="https://www.youtube.com/embed/qjRQAjbtb8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen"></iframe>'
+    div.innerHTML = '<iframe width="560" height="315" src="./index.html" allowfullscreen></iframe>'
 })
 
 
